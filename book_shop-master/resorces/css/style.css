@@ -1,0 +1,293 @@
+@font-face {
+    font-family: "Cardo-Bold";
+    src: url("resorces/fonts/Cardo-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Cardo-Italic";
+    src: url("resorces/fonts/Cardo-Italic.ttf");
+}
+
+.logo {
+    margin-top: -30px;
+    width: 200px;
+    height: auto;
+}
+
+.bg-color {
+    background-color: rgba(27, 55, 100, 1);
+}
+
+.hed {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.htxt {
+    color: white;
+    gap: 30px;
+}
+.h6txt{
+    font-family: "Cardo-Italic";
+}
+.txt1 {
+    font-size: 18px;
+    text-decoration: none;    
+    color: white;
+    font-family: "Cardo-Bold";
+}
+.txt1:hover{
+    font-size: 20px;
+    color: white;
+}
+
+.ico1 {
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+.ico1:hover{
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.btn1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cardo-Italic";
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 202, 66, 1);
+    text-decoration: none;
+}
+
+.hed2 {
+    font-family: cardio;
+}
+
+/* hero section */
+
+.hero {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt2 {
+    font-size: 65px;
+
+    font-family: "Cardo-Bold";
+
+}
+
+.txt3 {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: normal;
+    color: white;
+}
+
+.img2 {
+    width: 900px;
+    height: auto;
+}
+
+/* book area */
+.h2txt {
+    margin-top: 10px;
+    font-family: "Cardo-Bold";
+}
+
+.img3 {
+    width: 400px;
+    height: 500px;
+}
+
+.txt3 {
+    margin-top: -10px;
+}
+
+/* about author */
+.abg {
+    display: grid;
+    height: 990px;
+    background-color: rgb(219, 230, 250);
+    align-items: center;
+}
+
+.img4 {
+    width: 550px;
+    height: auto;
+}
+
+.ab {
+    display: grid;
+    align-self: center;
+}
+
+.txt4 {
+    font-family: "Cardo-Italic";
+}
+.btn2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cardo-Italic";
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 202, 66, 1);
+    text-decoration: none;
+}
+.hico{
+    margin-left: 30px;
+}
+/* footer */
+.cont {
+    height: 510px;
+}
+
+.img5 {
+    width: 150px;
+    height: auto;
+}
+
+.ico2 {
+    margin-top: -20px;
+}
+
+.icoc {
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.ftxt {
+    font-family: "Cardo-Italic";
+}
+
+.ftxt {
+    font-family: "Cardo-bold";
+    color: white;
+}
+
+.f1txt {
+    font-family: "Cardo";
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.f1txt:hover{
+    color: white;
+    font-size: 20px;
+}
+.lit{
+    list-style-type: none;
+}
+.ab1{
+    display: grid;
+    margin-top: 5%;
+    
+}
+.f2txt {
+    font-family: "Cardo";
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.f3txt {
+    font-family: "Cardo";
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+/* signIn */
+/* .sicon{
+    margin-top: 5%;
+} */
+.btn3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cardo-Italic";
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 202, 66, 1);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn4 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cardo-Italic";
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(10, 167, 62);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn3:hover{
+    display: grid;        
+    align-items: center;
+    font-family: "Cardo-Italic";
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(10, 96, 167);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn4:hover{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cardo-Italic"; 
+    font-weight: bold;
+    color: black;
+    background-color: rgb(167, 10, 10);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.f4txt {
+    font-family: "Cardo-Bold";    
+}
+.btn5 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cardo-Italic";
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 202, 66, 1);
+    text-decoration: none;
+    border-radius: 20px;
+}
+/* store */
+.se{
+    position: static;
+    margin-left: -22px;
+}
